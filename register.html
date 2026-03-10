@@ -27,6 +27,9 @@
                 <a href="./register.html" class="active nav-btn">Donate Food</a>
             </li>
         </ul>
+        <div class="menu-toggle">
+            <i class='bx bx-menu'></i>
+        </div>
     </nav>
 
     <!-- Donation Form Section -->
@@ -34,7 +37,8 @@
         <div class="register-layout">
             <div class="register-info">
                 <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 20px;">Donate
-                    <span>Surplus Food</span></h1>
+                    <span>Surplus Food</span>
+                </h1>
                 <p style="color: var(--text-muted); font-size: 1.15rem; margin-bottom: 40px;">Thank you for your
                     generosity. Please provide the details of your donation below so our fleet can arrange a rapid
                     collection.</p>
@@ -100,6 +104,10 @@
         </div>
     </section>
 
+    <!-- UI Elements -->
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class='bx bx-up-arrow-alt'></i></button>
+    <div id="toast">Message goes here</div>
+
     <!-- JS Validation -->
     <script>
         function validateform() {
@@ -115,6 +123,7 @@
             return true;
         }
     </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
