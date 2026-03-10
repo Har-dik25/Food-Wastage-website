@@ -5,352 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoEats | Saving Food</title>
+    <title>EcoEats | Zero Food Waste</title>
     <link rel="icon" href="./files/logo.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
 </head>
 
 <body>
 
-    <!-- Background & Header -->
+    <!-- Header Navigation -->
+    <nav>
+        <img src="2.webp" class="logo" alt="EcoEats Logo" title="EcoEats">
+        <ul class="navbar">
+            <li>
+                <a href="#home" class="active">Home</a>
+                <a href="#how-it-works">How We Work</a>
+                <a href="./about.html">The Crisis</a>
+                <a href="./contact.html">Contact</a>
+                <a href="./register.html" class="nav-btn">Donate Food</a>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="banner">
-        <img src="1.png">
-
-        <!-- Header -->
-
-        <div class="content" id="home">
-            <nav>
-                <img src="2.webp" class="logo" alt="Logo" title="EcoEats">
-
-                <ul class="navbar">
-                    <li>
-                        <a href="#">Home</a>
-                        <a href="#fwmanage">What We Do</a>
-                        <a href="./register.html">Get Involved</a>
-                        <a href="./about.html">About Us</a>
-                        <a href="./contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </nav>
-
+    <!-- Hero Section -->
+    <div class="banner" id="home">
+        <img src="1.png" alt="Fresh Food Assortment">
+        <div class="content">
             <div class="title">
-                <h1>EcoEats</h1>
-                <p>"Throwing away food is like stealing from the table of those who are poor and hungry" - Pope Francis
-                </p>
-                <a href="./register.html" class="button">Donate Food!</a>
+                <h1>Zero Waste.<br>Zero Hunger.</h1>
+                <p>Nutritious food belongs on tables, not in landfills. Join our network of 150+ banquets and redirect
+                    quality surplus food to families in need today.</p>
+                <div class="hero-buttons">
+                    <a href="./register.html" class="button">Donate Food Now</a>
+                    <a href="#how-it-works" class="button-outline">See How It Works</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- What is food waste? -->
-
-    <section class="container">
-        <div class="text">
-            <h2>What is Food Waste?</h2>
+    <!-- Impact Metrics Banner -->
+    <section class="metrics-banner">
+        <div class="metric">
+            <h3>150+</h3>
+            <p>Banquet Partners</p>
         </div>
-        <div class="rowitems">
-            <div class="container-box">
-                <h4>Food waste is any type of food that is discarded or not eaten. It can include uneaten food from
-                    meals, spoiled food, trimmings from food preparation, and food products that have been damaged and
-                    deemed unfit for human consumption.</h4>
-                <h2>Types of food waste:</h2>
-                <h4>1) Fruit and Vegetable waste <br>2) Beverage waste <br>3) Fish, Meat & Poultry waste <br>4) Sugar
-                    Industry waste <br>5) Dairy waste <br>6) Mineral waste <br>7) Oil residue waste</h4> <br>
-                <img src="./files/1.jpg" alt="">
-                <img src="./files/2.jpg" alt="">
+        <div class="metric">
+            <h3>10,000+</h3>
+            <p>Meals Rescued</p>
+        </div>
+        <div class="metric">
+            <h3>5,000kg</h3>
+            <p>CO2 Prevented</p>
+        </div>
+        <div class="metric">
+            <h3>24/7</h3>
+            <p>Collection Service</p>
+        </div>
+    </section>
 
+    <!-- The Problem (Brief) -->
+    <section class="brief-problem">
+        <div class="fwm-title">
+            <h2>The Global Food Crisis</h2>
+        </div>
+        <div class="grid-3-col">
+            <div class="stat-card">
+                <i class='bx bx-world icon-large'></i>
+                <h3>1/3 Wasted</h3>
+                <p>One-third of all food produced globally for human consumption gets lost or wasted.</p>
             </div>
-
+            <div class="stat-card">
+                <i class='bx bx-dollar-circle icon-large'></i>
+                <h3>Trillion Dollar Loss</h3>
+                <p>The annual economic impact of food waste worldwide is estimated at $1 trillion.</p>
+            </div>
+            <div class="stat-card">
+                <i class='bx bx-leaf icon-large'></i>
+                <h3>Climate Driver</h3>
+                <p>If food waste were a country, it would be the 3rd largest greenhouse gas emitter.</p>
+            </div>
         </div>
-
-        </div>
-
-    </section>
-
-    <!-- What is food waste management? -->
-
-    <section class="fwmanage" id="fwmanage">
-        <div class="fwm-title">
-            <h2>What is food waste management system?</h2>
-        </div>
-
-        <div class="container-box">
-
-            <h4>Food waste management systems are designed to reduce the amount of food waste created by businesses and
-                households. These systems typically involve practices such as composting, recycling, and anaerobic
-                digestion. Additionally, food waste
-                management systems often include education and awareness campaigns to help people understand how their
-                food choices impact the environment. Such systems can also involve infrastructure changes, such as the
-                implementation of collection
-                systems that make it easier for businesses and households to separate and properly dispose of their food
-                waste. Every day, food businesses throw out high-quality, delicious food. It could be pallets of fresh
-                bell peppers that aren’t the
-                ideal shape. Or carrots that are a little crooked. Or milk that was over-ordered for a local school
-                district. Point is, it’s food that could feed people rather than ending up in a landfill. In India, the
-                larger the marriage, the larger
-                the party, and also the additional stupendous the waste. No doubt weddings and banquets are an enormous
-                supply of food wastage, however, restaurants and hotels conjointly contribute to food wastage. Nearly
-                14% of the total food produced
-                globally is lost between the harvest and retail stages. India's contribution to wasted food, at 68.8
-                million tonnes annually, is 7% of the global total, per the United Nations Environment Programme's Food
-                Waste Index Report 2021. <br>
-            </h4>
-
+        <div class="text-center mt-4">
+            <a href="./about.html" class="link-forward">Read more about causes and global impact &rarr;</a>
         </div>
     </section>
 
-
-    <section class="fwm" id="fwm">
+    <!-- How It Works (Solution) -->
+    <section class="how-it-works" id="how-it-works">
         <div class="fwm-title">
-            <h2>How can we manage food waste?</h2>
+            <h2>How EcoEats Works</h2>
         </div>
-
-        <div class="container-box">
-            <h4> Here are few steps which we can follow in order to minimize food wastage: <br> 1) Reduce food waste at
-                home by buying only what you need, planning meals, and storing food properly. <br> 2) Compost food
-                scraps to create nutrient-rich soil for
-                plants. <br> 3) Donate extra food to food banks, shelters, and other organizations. <br> 4) Recycle food
-                packaging and containers. <br> 5) Use leftovers creatively in new meals and recipes. <br> 6) Contact
-                your local government to find
-                out what food waste programs are available in your area. <br> <br> Solutions for food waste management
-                in India: <br> 1)
-
-                <span>Recycle by Composting:</span> Food producers will solve 100% of their waste matter issues by
-                merely organizing a good composting strategy. And doing therefore not solely eliminates waste, it saves
-                you cash as a result of you don’t
-                have to be compelled to “outsource” your compost production. <br> 2)
-
-                <span>Turn Wasted Food into Animal Feed:</span> Cultivating compost is a method to recycle food, however
-                it also can be drained of the bellies of cows, sheep, pigs, and alternative ethereal (themselves
-                destined to become food). <br> 3)
-
-                <span>Use Waste Food to provide Products:</span> From biofuels to liquid fertilizer, there are several
-                helpful merchandises that may be factory-made from bound styles of waste foods, and infrequently
-                “leftovers” of one company might be
-                helpful in another business for the food scrap. <br> 4)
-
-                <span>Source Reduction and Food Donation:</span> The easiest method to curtail waste matter is to easily
-                turn out less whenever production is clearly resulting in waste. Once excess foodstuffs are still safe
-                to eat, there will be hungry
-                and poor people who realize it troublesome to afford decent food in today’s dear economy.
-            </h4>
-            <center><iframe width="585" height="298" src="https://www.youtube.com/embed/KZf9_GdDff0"
-                    title="5 tips to reduce food waste" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe></center>
+        <div class="grid-3-col steps">
+            <div class="step-card">
+                <div class="step-number">1</div>
+                <h3>Connect</h3>
+                <p>Have surplus food from an event, hotel, or farm? Fill out our quick online form to alert our
+                    logistics network.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">2</div>
+                <h3>Collect</h3>
+                <p>Our rapid-response volunteer fleet arrives to safely and hygienically package and collect the viable
+                    food.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-number">3</div>
+                <h3>Distribute</h3>
+                <p>We immediately transport the food to partner shelters and food banks, ensuring it reaches hungry
+                    families the same day.</p>
+            </div>
         </div>
-
     </section>
 
-    <section class="fwm" id="fwm">
-        <div class="fwm-title">
-            <h2>Causes of Food Wasteage</h2>
+    <!-- Video Highlight -->
+    <section class="video-section">
+        <div class="container-box text-center">
+            <h2>5 Simple Habits to Reduce Waste at Home</h2>
+            <h4 class="mb-4">Small steps in our daily lives create a massive collective impact on the environment.</h4>
+            <div class="iframe-container">
+                <iframe src="https://www.youtube.com/embed/KZf9_GdDff0" title="5 tips to reduce food waste"
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
         </div>
-
-        <div class="container-box">
-            <h4>
-                1. <span>Over-Purchasing:</span> Many consumers buy more food than they can consume, driven by large
-                package sizes, bulk discounts, and enticing sales. This leads to excess food that eventually goes to
-                waste, contributing to food wastage.<br> 2. <span>Improper Storage:</span> Failing to store food
-                correctly results in spoilage or contamination. Fruits and vegetables stored in unsuitable conditions
-                deteriorate quickly, leading to their disposal. Proper storage practices are
-                important to extend the shelf life of food and reduce wastage.<br> 3. <span>Misunderstanding Expiration
-                    Dates:</span> Misinterpretation of food expiration dates leads to premature discarding of perfectly
-                edible food. Expiration labels
-                often indicate peak quality rather than safety, causing unnecessary waste.
-                <br> 4. <span>Cosmetic Standards:</span> Supermarkets and consumers reject edible food items based on
-                appearance, disregarding their nutritional value. This emphasis on aesthetic criteria contributes to
-                food wastage. <br>5. <span> Sizes:</span> Large portion sizes in restaurants and home-cooked meals
-                result in significant food waste. Excessive servings lead to uneaten food being thrown away, adding to
-                the problem of wastage.<br> 6.<span> Inefficient Supply Chains:</span> Inefficiencies
-                in transportation, distribution, and storage within the food supply chain contribute to food waste.
-                Spoilage during transit and unsold goods that are discarded amplify the issue.<br> 7. <span>Lack of
-                    Awareness:</span> Many individuals
-                remain unaware of the consequences of food waste and how to combat it. Lack of knowledge hinders
-                effective waste reduction strategies, emphasizing the need for education and awareness initiatives.<br>
-                8. <span>Cultural Practices:</span> Norms and traditions around food consumption can lead to wastage. In
-                some cultures, leaving food on one's plate may be considered impolite, resulting in overordering at
-                restaurants and disposal of leftovers. <br>9. <span>Economic Factors:</span> Economic incentives, such
-                as bulk discounts and low prices for large portions, encourage overconsumption and subsequent food
-                waste.<br> 10.<span> Lack of Infrastructure:</span> In regions with inadequate infrastructure for food
-                storage
-                and transportation, significant food losses occur even before reaching consumers. Improved
-                infrastructure is necessary to reduce such wastage.
-                <center><img src="./files/3.jpg" alt=""> <img src="./files/4.jpg" alt=""></center> <br>
-
-            </h4>
-
-        </div>
-
-    </section>
-
-    <section class="fwm" id="school-wastage">
-        <div class="fwm-title">
-            <h2>Food Wasteage in School/College</h2>
-        </div>
-
-        <div class="container-box">
-            <h4>
-                1. <span>Cafeteria Waste:</span> Schools and colleges often generate significant food waste in their
-                cafeterias due to various factors such as overproduction and unappetizing menu items.<br> 2.
-                <span>Trayless Dining:</span> Implementing trayless dining options encourages students to take only what
-                they can eat, reducing the likelihood of food waste from overloaded trays.<br> 3. <span>Portion
-                    Control:</span> Offering smaller portion sizes or customizable
-                meal options allows students to choose appropriate amounts of food and avoid waste.<br> 4.<span> Food
-                    Recovery Programs:</span> Collaborating with food recovery organizations enables schools to donate
-                surplus food to charities
-                or food banks, ensuring it doesn't go to waste.
-                <br> 5. <span>Education and Awareness:</span> Raising awareness among students about the impacts of food
-                waste and promoting responsible consumption can foster a culture of waste reduction.<br> 6. <span>Menu
-                    Planning:</span> Thoughtful menu planning that considers student preferences and portion sizes helps
-                reduce waste by matching food supply with demand.<br> 7. <span>Composting:</span> Implementing
-                composting programs for food scraps diverts
-                organic waste from landfills and contributes to sustainable practices.<br> 8. <span>Food Sharing
-                    Programs:</span> Establishing food-sharing tables or programs allows students to leave unopened or
-                unwanted food for others, reducing
-                waste and promoting sharing.<br> 9. <span>Tray Return Stations:</span> Setting up convenient tray return
-                stations with designated areas for food scraps, recyclables, and dishes encourages proper disposal and
-                minimizes contamination.
-                <br>10. <span>Leftover Meal Redistribution:</span> Exploring options for safely redistributing unserved
-                or leftover meals within the school or college community helps reduce waste and support students in
-                need.<br> 11.<span> Student Engagement:</span> Involving students in decision-making processes like menu
-                planning or sustainability initiatives empowers them to actively participate in reducing food waste.<br>
-                12.<span> Tracking and Analysis:</span> Monitoring and analyzing
-                food waste data allows educational institutions to identify patterns and areas for improvement in their
-                food service operations. <br>13.<span> Green Initiatives:</span> Integrating food waste reduction
-                efforts into broader
-                sustainability initiatives aligns with environmental goals and promotes a holistic approach to
-                sustainability. <br>14. <span>Supportive Policies:</span> Developing and enforcing policies that promote
-                food waste reduction and
-                sustainable practices provide a framework for waste reduction efforts. <br>15.
-                <span>Collaboration:</span> Collaborating with local businesses, food suppliers, and community
-                organizations fosters knowledge-sharing and resource
-                utilization to tackle food waste collectively.
-                <br>
-                <center><img src="./files/3.jpg" alt=""> <img src="./files/4.jpg" alt=""></center> <br>
-
-            </h4>
-
-        </div>
-
-    </section>
-
-    <section class="fwm" id="global-perspective">
-        <div class="fwm-title">
-            <h2>Global Perspective</h2>
-        </div>
-
-        <div class="container-box">
-            <h4>
-                Food wastage is a massive global problem, with approximately one-third of all food produced for human
-                consumption going to waste each year. This amounts to billions of tons of food, representing a
-                significant economic loss at the global level. Food wastage
-                is estimated to cost hundreds of billions of dollars annually, impacting the entire food supply chain,
-                from production to consumption.<br>The environmental consequences of
-                food wastage are extensive. It contributes to greenhouse gas emissions, deforestation, water scarcity,
-                and biodiversity loss. Food wastage exacerbates environmental challenges and climate change, squandering
-                the
-                resources utilized in food production.<br>In stark contrast, while food is wasted on a large scale,
-                millions of people around the world suffer from hunger and food insecurity. Addressing food wastage is
-                crucial
-                to reduce these pressing global issues. It is a social and ethical concern, raising questions about
-                responsible resource use and equitable food distribution. Sustainable development principles emphasize
-                meeting
-                present needs without compromising the needs of future generations, making the reduction of food wastage
-                a critical component of achieving sustainability.<br>Food supply chains have become increasingly
-                globalized,
-                with products transported across continents. Food wastage at any point in these complex supply chains
-                has global implications, making it essential to address both food loss (occurring during production and
-                distribution)
-                and food waste (occurring at the consumer level).<br>Cultural and behavioral differences influence food
-                wastage, highlighting the need to understand various consumer behaviors, dietary habits, and local
-                practices
-                when developing effective reduction strategies.<br>The United Nations' Sustainable Development Goals
-                (SDGs) recognize the significance of reducing food wastage, including goals related to sustainable
-                consumption
-                and production patterns. International organizations like the Food and Agriculture Organization (FAO)
-                and the United Nations Environment Programme (UNEP) provide guidance, research, and initiatives to
-                combat food
-                wastage on a global scale, emphasizing the importance of collaborative efforts.<br>Furthermore, reducing
-                food wastage has direct implications for global food security. By minimizing waste, resources and food
-                supplies
-                can be more efficiently allocated to meet the nutritional needs of the world's growing
-                population.<br>Increasing consumer awareness about the global implications of food wastage is vital for
-                behavior change. Educating
-                individuals about the economic, environmental, and social consequences of food wastage can inspire more
-                responsible consumption practices at an individual level, contributing to the overall reduction of
-                wasted food.
-                <center><img src="./files/3.jpg" alt=""> <img src="./files/4.jpg" alt=""></center> <br>
-
-            </h4>
-
-        </div>
-
     </section>
 
     <!-- Newsletter -->
-
     <section class="newsletter">
         <div class="newstext">
-            <h2>Newsletter</h2>
-            <p>Subscribe to Get updates on events, <br> volunteer opportunities and other news.</p>
+            <h2>Join the Movement</h2>
+            <p>Get updates on volunteer opportunities, collection drives, and impact reports.</p>
         </div>
-
         <div class="send">
             <form action="">
-                <input type="email" name="emailid" placeholder="E-mail" required>
+                <input type="email" placeholder="Enter your email address" required>
                 <input type="submit" value="Subscribe">
             </form>
         </div>
-
     </section>
 
     <!-- Footer -->
-
     <section class="footer">
-        <div class="foot">
-            <div class="footer-content">
-
-                <div class="footlinks">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="./register.html">Donate</a></li>
-                        <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
-                    </ul>
+        <div class="footer-content">
+            <div class="footlinks">
+                <h4>EcoEats HQ</h4>
+                <p class="mb-2" style="color: var(--text-muted);">123 Earth Saver Avenue<br>New Delhi, India 110001</p>
+                <p style="color: var(--text-muted);">Email: support@ecoeat.com<br>Tel: 1800-00-000</p>
+            </div>
+            <div class="footlinks">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="./register.html">Donate Surplus Food</a></li>
+                    <li><a href="./about.html">The Global Crisis</a></li>
+                    <li><a href="./contact.html">Contact Support</a></li>
+                </ul>
+            </div>
+            <div class="footlinks">
+                <h4>Connect With Us</h4>
+                <div class="social">
+                    <a href="#" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" aria-label="Twitter"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class='bx bxl-linkedin'></i></a>
                 </div>
-
-                <div class="footlinks">
-                    <h4>Connect</h4>
-                    <div class="social">
-                        <a href="" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-youtube'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-wordpress'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-github'></i></a>
-                    </div>
-                </div>
-
             </div>
         </div>
-
         <div class="end">
-            <p>Tel: 1800-00-000 Email: support@ecoeat.com | Copyright © 2023 EcoEats | All Rights Reserved. <br>Website
-                developed by: HARDIK CHOUDHARY | SAURAV SINGH | PUNIT KUMAR</p>
+            <p>Copyright © 2026 EcoEats | All Rights Reserved.</p>
+            <p style="font-size: 0.8rem; margin-top: 5px;">Built by: Hardik Choudhary, Saurav Singh, Punit Kumar</p>
         </div>
     </section>
-
-
 
 </body>
 

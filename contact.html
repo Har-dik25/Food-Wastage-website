@@ -3,85 +3,82 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Contact Us | EcoEats</title>
     <link rel="icon" href="./files/logo.png">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
 </head>
 
-<body class="contactbody">
+<body class="contactbody" style="padding-top: 80px;">
+    <!-- Navigation -->
     <nav>
-        <img src="./files/logo.png" class="logo" alt="Logo" title="FoodYard">
-
+        <img src="./files/logo.png" class="logo" alt="EcoEats Logo">
         <ul class="navbar">
             <li>
                 <a href="./index.html">Home</a>
-                <a href="./index.html#fwmanage">What We Do</a>
-                <a href="./register.html">Get Involved</a>
-                <a href="./about.html">About Us</a>
-                <a href="./contact.html">Contact Us</a>
+                <a href="./index.html#how-it-works">How We Work</a>
+                <a href="./about.html">The Crisis</a>
+                <a href="./contact.html" class="active">Contact</a>
+                <a href="./register.html" class="nav-btn">Donate Food</a>
             </li>
         </ul>
     </nav>
 
     <section class="contact">
-        <div class="contact-form">
-            <h1>Contact <span>Us</span></h1>
-            <p>We are always out there to help you! Fill out the form given below and get a reply from us within 2
-                business days.</p>
-            <form action="">
-                <input type="text" name="myname" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your E-mail" required>
-                <input type="text" name="subject" placeholder="What brings you here?" required>
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Submit" class="submit-btn">
-            </form>
-        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h1 style="font-family: 'Playfair Display', serif; font-size: 3.5rem; margin-bottom: 20px;">Let's
+                    <span>Talk.</span></h1>
+                <p style="color: var(--text-muted); font-size: 1.2rem; margin-bottom: 40px;">Whether you're a banquet
+                    hall looking to partner, a volunteer ready to drive, or just have a general inquiry, our team is
+                    here to help you.</p>
 
+                <div class="info-item">
+                    <i class='bx bx-map-pin'></i>
+                    <div>
+                        <h4>Headquarters</h4>
+                        <p>123 Earth Saver Avenue, New Delhi, India 110001</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-envelope'></i>
+                    <div>
+                        <h4>Email Us</h4>
+                        <p>support@ecoeat.com</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class='bx bx-phone-call'></i>
+                    <div>
+                        <h4>Call Us (Toll Free)</h4>
+                        <p>1800-00-000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form" style="margin: 0;">
+                <h2 style="margin-bottom: 30px; font-family: 'Inter', sans-serif;">Send a Message</h2>
+                <form action="#">
+                    <input type="text" name="myname" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="text" name="subject" placeholder="Subject / Inquiry Type" required>
+                    <textarea name="message" placeholder="How can we help you today?" required></textarea>
+                    <button type="submit" class="submit-btn" style="width: 100%;">Send Message</button>
+                    <p style="font-size: 0.9rem; margin-top: 15px; text-align: center;">We aim to respond to all
+                        inquiries within 24 hours.</p>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-
-    <section class="footer">
-        <div class="foot">
-            <div class="footer-content">
-
-                <div class="footlinks">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="./register.html">Donate</a></li>
-                        <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-
-                <div class="footlinks">
-                    <h4>Connect</h4>
-                    <div class="social">
-                        <a href="" target="_blank"><i class='bx bxl-facebook'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-instagram'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-twitter'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-youtube'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-wordpress'></i></a>
-                        <a href="" target="_blank"><i class='bx bxl-github'></i></a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
+    <section class="footer mt-0 pt-0">
         <div class="end">
-            <p>Tel: 1800-00-000 Email: support@ecoeat.com | Copyright © 2023 EcoEats | All Rights Reserved. <br>Website
-                developed by: HARDIK CHOUDHARY | SAURAV SINGH | PUNIT KUMAR</p>
+            <p>Copyright © 2026 EcoEats | All Rights Reserved.</p>
         </div>
     </section>
 
