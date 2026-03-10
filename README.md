@@ -2,6 +2,8 @@
 
 EcoEats is a beautiful, modern web platform designed to combat food wastage by helping banquets and individuals donate excess food directly to those in need. With a network of over 150+ banquets, we believe nutritious food should go to people, not landfills.
 
+**[🚀 View Live Demo on Netlify](https://foodwastageproject.netlify.app/)**
+
 ## ✨ Features
 *   **Premium Modern Interface:** A complete design overhaul featuring an elegant "Dark Mode" aesthetic, vibrant emerald green accents, and advanced glassmorphism components.
 *   **Responsive Design:** Fully scaled to look perfect on devices of all sizes using CSS Flexbox and Grids.
